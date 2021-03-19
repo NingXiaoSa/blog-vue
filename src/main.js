@@ -11,6 +11,7 @@ import 'mavon-editor/dist/css/index.css'
 
 import axios from 'axios'
 import "./axios"
+import "./permission"
 
 Vue.prototype.$axios = axios //
 Vue.config.productionTip = false
