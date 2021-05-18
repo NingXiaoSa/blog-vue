@@ -42,7 +42,6 @@ export default {
       const blog = res.data.data
       console.log(blog)
       _this.blog.id = blog.id
-
       _this.blog.title = blog.title
       ////////调用markdown
       var MarkdownIt = require('markdown-it')

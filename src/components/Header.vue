@@ -54,6 +54,7 @@ export default {
       this.user.username=this.$store.getters.getUer.username
       this.user.avatar=this.$store.getters.getUer.avatar
       this.hasLogin=true;
+
     }
   }
 }
